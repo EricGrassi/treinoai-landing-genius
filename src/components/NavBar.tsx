@@ -36,20 +36,23 @@ const NavBar = () => {
           </div>
           <nav className="hidden md:flex space-x-8">
             <a href="#features" className="text-sm text-treino-light hover:text-white transition-colors duration-200">
-              Features
+              Recursos
+            </a>
+            <a href="#workout-example" className="text-sm text-treino-light hover:text-white transition-colors duration-200">
+              Exemplo de Treino
             </a>
             <a href="#how-it-works" className="text-sm text-treino-light hover:text-white transition-colors duration-200">
-              How It Works
+              Como Funciona
             </a>
             <a href="#testimonials" className="text-sm text-treino-light hover:text-white transition-colors duration-200">
-              Testimonials
+              Depoimentos
             </a>
           </nav>
           <div className="flex items-center">
             <Button 
               className="bg-white text-treino-dark hover:bg-treino-accent hover:text-treino-dark transition-all duration-300"
             >
-              Start Free Trial
+              Começar Teste Grátis
             </Button>
           </div>
         </div>

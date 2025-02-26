@@ -5,23 +5,23 @@ import { Button } from "@/components/ui/button";
 const steps = [
   {
     number: "01",
-    title: "Share Your Goals",
-    description: "Tell us about your fitness goals, experience level, available equipment, and schedule constraints."
+    title: "Compartilhe Seus Objetivos",
+    description: "Conte-nos sobre seus objetivos de condicionamento físico, nível de experiência, equipamentos disponíveis e restrições de agenda."
   },
   {
     number: "02",
-    title: "AI Creates Your Plan",
-    description: "Our AI analyzes your information to design a personalized workout plan optimized for your specific needs."
+    title: "A IA Cria Seu Plano",
+    description: "Nossa IA analisa suas informações para criar um plano de treino personalizado e otimizado para suas necessidades específicas."
   },
   {
     number: "03",
-    title: "Start Training",
-    description: "Follow your custom plan and track your progress as you complete workouts and reach milestones."
+    title: "Comece a Treinar",
+    description: "Siga seu plano personalizado e acompanhe seu progresso à medida que completa os treinos e alcança marcos."
   },
   {
     number: "04",
-    title: "Adapt & Improve",
-    description: "As you provide feedback and log workouts, the AI refines your plan to match your progress and evolving goals."
+    title: "Adapte e Melhore",
+    description: "Conforme você fornece feedback e registra treinos, a IA refina seu plano para corresponder ao seu progresso e objetivos em evolução."
   }
 ];
 
@@ -31,13 +31,13 @@ const HowItWorksSection = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <span className="bg-white/10 text-treino-accent px-3 py-1 rounded-full text-sm mb-4 inline-block">
-            Process
+            Processo
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            How TreinoAI Works
+            Como o TreinoAI Funciona
           </h2>
           <p className="text-treino-light max-w-2xl mx-auto">
-            A simple process that delivers powerful results, designed with you at the center.
+            Um processo simples que entrega resultados poderosos, projetado com você no centro.
           </p>
         </div>
         
@@ -64,38 +64,38 @@ const HowItWorksSection = () => {
           <div className="lg:w-1/2">
             <div className="glass-effect rounded-2xl p-6 border border-white/10 shadow-[0_20px_70px_-15px_rgba(255,255,255,0.07)]">
               <div className="mb-6">
-                <h3 className="text-xl font-semibold text-white mb-1">Get Started Now</h3>
-                <p className="text-treino-light text-sm">Fill out this quick form to create your first workout plan</p>
+                <h3 className="text-xl font-semibold text-white mb-1">Comece Agora</h3>
+                <p className="text-treino-light text-sm">Preencha este formulário rápido para criar seu primeiro plano de treino</p>
               </div>
               
               <div className="space-y-4">
                 <div>
-                  <label className="block text-sm text-treino-light mb-1">Your fitness goal</label>
+                  <label className="block text-sm text-treino-light mb-1">Seu objetivo fitness</label>
                   <select className="w-full bg-white/5 border border-white/10 rounded-lg p-3 text-white outline-none focus:border-white/30 transition-colors">
-                    <option>Build muscle</option>
-                    <option>Lose weight</option>
-                    <option>Improve endurance</option>
-                    <option>Increase strength</option>
+                    <option>Ganhar massa muscular</option>
+                    <option>Perder peso</option>
+                    <option>Melhorar resistência</option>
+                    <option>Aumentar força</option>
                   </select>
                 </div>
                 
                 <div>
-                  <label className="block text-sm text-treino-light mb-1">Experience level</label>
+                  <label className="block text-sm text-treino-light mb-1">Nível de experiência</label>
                   <div className="grid grid-cols-3 gap-2">
                     <div className="bg-white/5 border border-white/20 rounded-lg p-3 text-center text-white cursor-pointer hover:bg-white/10 transition-colors">
-                      Beginner
+                      Iniciante
                     </div>
                     <div className="bg-white text-treino-dark rounded-lg p-3 text-center cursor-pointer">
-                      Intermediate
+                      Intermediário
                     </div>
                     <div className="bg-white/5 border border-white/20 rounded-lg p-3 text-center text-white cursor-pointer hover:bg-white/10 transition-colors">
-                      Advanced
+                      Avançado
                     </div>
                   </div>
                 </div>
                 
                 <div>
-                  <label className="block text-sm text-treino-light mb-1">Workouts per week</label>
+                  <label className="block text-sm text-treino-light mb-1">Treinos por semana</label>
                   <input 
                     type="range" 
                     min="2" 
@@ -114,13 +114,13 @@ const HowItWorksSection = () => {
                 
                 <div className="pt-2">
                   <Button className="w-full bg-white text-treino-dark hover:bg-treino-accent group py-6 transition-all duration-300">
-                    Generate My Workout Plan
+                    Gerar Meu Plano de Treino
                     <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                   </Button>
                 </div>
                 
                 <div className="text-center text-xs text-treino-light mt-4">
-                  <p>No credit card required • Free 14-day trial</p>
+                  <p>Não é necessário cartão de crédito • Teste gratuito de 14 dias</p>
                 </div>
               </div>
             </div>

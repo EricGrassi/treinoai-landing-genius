@@ -31,7 +31,7 @@ const ScrollToTopButton = () => {
       className={`fixed bottom-8 right-8 glass-effect p-3 rounded-full z-50 text-white hover:bg-white/20 transition-all duration-300 ${
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10 pointer-events-none"
       }`}
-      aria-label="Scroll to top"
+      aria-label="Voltar ao topo"
     >
       <ArrowUp className="h-5 w-5" />
     </button>

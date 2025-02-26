@@ -4,28 +4,28 @@ import { Activity, Dumbbell, Heart, Target, Users } from "lucide-react";
 const features = [
   {
     icon: <Target className="h-8 w-8" />,
-    title: "Personalized Plans",
-    description: "Our AI analyzes your goals, fitness level, and preferences to create a workout plan that's uniquely yours."
+    title: "Planos Personalizados",
+    description: "Nossa IA analisa seus objetivos, nível de condicionamento e preferências para criar um plano de treino exclusivamente seu."
   },
   {
     icon: <Dumbbell className="h-8 w-8" />,
-    title: "Adaptive Progression",
-    description: "As you grow stronger, your plan evolves with you, adjusting intensity and exercises for optimal results."
+    title: "Progressão Adaptativa",
+    description: "À medida que você fica mais forte, seu plano evolui com você, ajustando a intensidade e os exercícios para resultados ideais."
   },
   {
     icon: <Activity className="h-8 w-8" />,
-    title: "Performance Tracking",
-    description: "Monitor your progress with detailed analytics and insights that help you understand your improvement."
+    title: "Acompanhamento de Desempenho",
+    description: "Monitore seu progresso com análises detalhadas e insights que ajudam a entender sua evolução."
   },
   {
     icon: <Heart className="h-8 w-8" />,
-    title: "Recovery Optimization",
-    description: "Smart recovery protocols ensure you're giving your body the rest it needs to perform at its best."
+    title: "Otimização da Recuperação",
+    description: "Protocolos inteligentes de recuperação garantem que você esteja dando ao seu corpo o descanso necessário para ter o melhor desempenho."
   },
   {
     icon: <Users className="h-8 w-8" />,
-    title: "Expert Guidance",
-    description: "Access to a library of professionally designed exercises with form guidance and video tutorials."
+    title: "Orientação Especializada",
+    description: "Acesso a uma biblioteca de exercícios projetados profissionalmente com orientação de forma e tutoriais em vídeo."
   }
 ];
 
@@ -35,13 +35,13 @@ const FeaturesSection = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <span className="bg-white/10 text-treino-accent px-3 py-1 rounded-full text-sm mb-4 inline-block">
-            Features
+            Recursos
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Why Choose TreinoAI
+            Por que Escolher TreinoAI
           </h2>
           <p className="text-treino-light max-w-2xl mx-auto">
-            Discover how our intelligent system creates the perfect workout plan tailored specifically to your needs and goals.
+            Descubra como nosso sistema inteligente cria o plano de treino perfeito, adaptado especificamente às suas necessidades e objetivos.
           </p>
         </div>
         

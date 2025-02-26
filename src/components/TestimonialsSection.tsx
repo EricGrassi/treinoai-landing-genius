@@ -6,26 +6,26 @@ const testimonials = [
   {
     id: 1,
     name: "Sarah J.",
-    role: "Marathon Runner",
+    role: "Corredora de Maratona",
     image: "https://images.unsplash.com/photo-1619946794135-5bc917a27793?q=80&w=987&auto=format&fit=crop",
-    quote: "TreinoAI helped me prepare for my first marathon with a plan that perfectly balanced running, strength, and recovery. My finish time exceeded all my expectations!",
-    goal: "Improve endurance for marathon"
+    quote: "TreinoAI me ajudou a me preparar para minha primeira maratona com um plano que equilibrava perfeitamente corrida, força e recuperação. Meu tempo de conclusão superou todas as minhas expectativas!",
+    goal: "Melhorar resistência para maratona"
   },
   {
     id: 2,
-    name: "Michael T.",
-    role: "Software Engineer",
+    name: "Miguel T.",
+    role: "Engenheiro de Software",
     image: "https://images.unsplash.com/photo-1600486913747-55e5470d6f40?q=80&w=1035&auto=format&fit=crop",
-    quote: "I had no idea where to start with weight training. TreinoAI created a progressive plan that helped me build strength while fitting perfectly around my busy work schedule.",
-    goal: "Build strength with limited time"
+    quote: "Eu não tinha ideia por onde começar com o treinamento de força. O TreinoAI criou um plano progressivo que me ajudou a desenvolver força enquanto se encaixava perfeitamente na minha agenda de trabalho agitada.",
+    goal: "Ganhar força com tempo limitado"
   },
   {
     id: 3,
-    name: "Elena K.",
-    role: "Physical Therapist",
+    name: "Helena K.",
+    role: "Fisioterapeuta",
     image: "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?q=80&w=987&auto=format&fit=crop",
-    quote: "As a PT, I'm impressed by how TreinoAI adapted my plan when I mentioned my shoulder injury. It incorporated appropriate modifications while still helping me reach my goals.",
-    goal: "Workout safely with past injury"
+    quote: "Como fisioterapeuta, estou impressionada com a forma como o TreinoAI adaptou meu plano quando mencionei minha lesão no ombro. Incorporou modificações apropriadas e ainda me ajudou a atingir meus objetivos.",
+    goal: "Treinar com segurança após lesão"
   }
 ];
 
@@ -37,13 +37,13 @@ const TestimonialsSection = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <span className="bg-white/10 text-treino-accent px-3 py-1 rounded-full text-sm mb-4 inline-block">
-            Success Stories
+            Histórias de Sucesso
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Real Results from Real People
+            Resultados Reais de Pessoas Reais
           </h2>
           <p className="text-treino-light max-w-2xl mx-auto">
-            See how TreinoAI has helped people just like you achieve their fitness goals.
+            Veja como o TreinoAI ajudou pessoas como você a alcançar seus objetivos de condicionamento físico.
           </p>
         </div>
         
@@ -54,7 +54,7 @@ const TestimonialsSection = () => {
               <div className="absolute -top-3 left-8 bg-treino-accent text-treino-dark px-4 py-1 rounded-full text-sm font-medium">
                 <div className="flex items-center gap-1">
                   <CheckCircle className="h-4 w-4" />
-                  <span>Goal: {testimonials[activeIndex].goal}</span>
+                  <span>Objetivo: {testimonials[activeIndex].goal}</span>
                 </div>
               </div>
               

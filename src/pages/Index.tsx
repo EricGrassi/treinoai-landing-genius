@@ -8,6 +8,7 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 import ScrollToTopButton from "@/components/ScrollToTopButton";
+import WorkoutPlanExample from "@/components/WorkoutPlanExample";
 
 const Index = () => {
   useEffect(() => {
@@ -42,17 +43,18 @@ const Index = () => {
 
   useEffect(() => {
     // Set page title and meta description
-    document.title = "TreinoAI - Personalized AI Workout Plans";
+    document.title = "TreinoAI - Planos de Treino Personalizados com IA";
     
     // Find existing meta description or create a new one
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
       metaDescription = document.createElement('meta');
-      metaDescription.name = 'description';
+      metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
     
-    metaDescription.content = 'TreinoAI creates personalized workout plans using AI to meet your specific fitness goals, schedule, and preferences.';
+    // Now we can safely set the content
+    metaDescription.setAttribute('content', 'TreinoAI cria planos de treino personalizados usando IA para atender aos seus objetivos específicos de condicionamento físico, agenda e preferências.');
   }, []);
 
   return (
@@ -60,6 +62,7 @@ const Index = () => {
       <NavBar />
       <HeroSection />
       <FeaturesSection />
+      <WorkoutPlanExample />
       <HowItWorksSection />
       <TestimonialsSection />
       <CTASection />

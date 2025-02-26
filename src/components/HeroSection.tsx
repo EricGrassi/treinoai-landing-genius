@@ -14,13 +14,13 @@ const HeroSection = () => {
       <div className="relative z-10 max-w-5xl mx-auto text-center">
         <div className="animate-fade-in">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white mb-6">
-            AI-Powered Workouts <br className="hidden sm:block" />
-            <span className="text-treino-accent">Designed For You</span>
+            Treinos com IA <br className="hidden sm:block" />
+            <span className="text-treino-accent">Feitos Para Você</span>
           </h1>
           
           <p className="max-w-2xl mx-auto text-lg md:text-xl text-treino-light mb-12">
-            TreinoAI creates personalized workout plans that adapt to your goals, 
-            schedule, and progress with precision and intelligence.
+            TreinoAI cria planos de exercícios personalizados que se adaptam aos seus objetivos, 
+            cronograma e progresso com precisão e inteligência.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -28,7 +28,7 @@ const HeroSection = () => {
               size="lg" 
               className="bg-white text-treino-dark hover:bg-treino-accent group transition-all duration-300 px-8 py-6 text-lg"
             >
-              Start Your Free Trial
+              Comece Seu Teste Grátis
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             
@@ -37,7 +37,7 @@ const HeroSection = () => {
               size="lg" 
               className="border-white/20 text-white hover:bg-white/10 hover:border-white/30 transition-all duration-300 px-8 py-6 text-lg"
             >
-              Learn More
+              Saiba Mais
             </Button>
           </div>
         </div>
@@ -47,8 +47,8 @@ const HeroSection = () => {
           <div className="glass-effect rounded-2xl p-1 max-w-4xl mx-auto shadow-[0_20px_70px_-15px_rgba(255,255,255,0.1)]">
             <div className="relative overflow-hidden rounded-xl border border-white/5 shadow-inner">
               <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2532&auto=format&fit=crop" 
-                alt="TreinoAI app interface showing personalized workout plan" 
+                src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952" 
+                alt="TreinoAI interface mostrando um plano de treino personalizado" 
                 className="w-full h-auto object-cover rounded-xl animate-blur-in"
                 loading="lazy"
               />
@@ -58,7 +58,7 @@ const HeroSection = () => {
           
           {/* Floating badge */}
           <div className="absolute -top-6 right-4 md:right-8 glass-effect px-4 py-2 rounded-full animate-pulse-slow">
-            <p className="text-xs md:text-sm text-white">Powered by AI</p>
+            <p className="text-xs md:text-sm text-white">Powered by IA</p>
           </div>
         </div>
       </div>

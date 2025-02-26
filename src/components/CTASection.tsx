@@ -3,11 +3,11 @@ import { ArrowRight, Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const benefits = [
-  "Personalized workout plans",
-  "Intelligent progress adaptation",
-  "Expert exercise guidance",
-  "Detailed performance analytics",
-  "14-day free trial, no credit card required"
+  "Planos de treino personalizados",
+  "Adaptação inteligente do progresso",
+  "Orientação de exercícios por especialistas",
+  "Análise detalhada de desempenho",
+  "Teste gratuito de 14 dias, sem necessidade de cartão de crédito"
 ];
 
 const CTASection = () => {
@@ -15,13 +15,13 @@ const CTASection = () => {
     <section className="py-20 bg-gradient-to-b from-treino-dark to-black px-4 sm:px-6 lg:px-8">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-          Start Your Fitness Journey <br />
-          <span className="text-treino-accent">With TreinoAI Today</span>
+          Comece Sua Jornada Fitness <br />
+          <span className="text-treino-accent">Com TreinoAI Hoje</span>
         </h2>
         
         <p className="text-treino-light max-w-2xl mx-auto mb-8 text-lg">
-          Join thousands of users who have transformed their fitness with personalized, 
-          AI-powered workout plans designed specifically for their needs.
+          Junte-se a milhares de usuários que transformaram sua condição física com planos 
+          de treino personalizados e alimentados por IA, projetados especificamente para suas necessidades.
         </p>
         
         <div className="flex flex-wrap justify-center gap-3 mb-10">
@@ -40,12 +40,12 @@ const CTASection = () => {
           size="lg" 
           className="bg-white text-treino-dark hover:bg-treino-accent group transition-all duration-300 px-8 py-6 text-lg"
         >
-          Start Your Free Trial
+          Comece Seu Teste Gratuito
           <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
         </Button>
         
         <p className="mt-4 text-treino-light text-sm">
-          No commitment. Cancel anytime.
+          Sem compromisso. Cancele quando quiser.
         </p>
       </div>
     </section>
