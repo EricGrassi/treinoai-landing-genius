@@ -1,6 +1,7 @@
 
 import { ArrowRight, Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const benefits = [
   "Planos de treino personalizados",
@@ -36,13 +37,15 @@ const CTASection = () => {
           ))}
         </div>
         
-        <Button 
-          size="lg" 
-          className="bg-white text-treino-dark hover:bg-treino-accent group transition-all duration-300 px-8 py-6 text-lg"
-        >
-          Comece Seu Teste Gratuito
-          <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-        </Button>
+        <Link to="/signup">
+          <Button 
+            size="lg" 
+            className="bg-white text-treino-dark hover:bg-treino-accent group transition-all duration-300 px-8 py-6 text-lg"
+          >
+            Comece Seu Teste Gratuito
+            <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+          </Button>
+        </Link>
         
         <p className="mt-4 text-treino-light text-sm">
           Sem compromisso. Cancele quando quiser.

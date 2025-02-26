@@ -1,6 +1,7 @@
 
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -24,13 +25,15 @@ const HeroSection = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button 
-              size="lg" 
-              className="bg-white text-treino-dark hover:bg-treino-accent group transition-all duration-300 px-8 py-6 text-lg"
-            >
-              Comece Seu Teste Grátis
-              <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
+            <Link to="/signup">
+              <Button 
+                size="lg" 
+                className="bg-white text-treino-dark hover:bg-treino-accent group transition-all duration-300 px-8 py-6 text-lg"
+              >
+                Comece Seu Teste Grátis
+                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </Link>
             
             <Button 
               variant="outline" 
@@ -47,8 +50,8 @@ const HeroSection = () => {
           <div className="glass-effect rounded-2xl p-1 max-w-4xl mx-auto shadow-[0_20px_70px_-15px_rgba(255,255,255,0.1)]">
             <div className="relative overflow-hidden rounded-xl border border-white/5 shadow-inner">
               <img 
-                src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952" 
-                alt="TreinoAI interface mostrando um plano de treino personalizado" 
+                src="https://images.unsplash.com/photo-1538805060514-97d9cc17730c?q=80&w=2574&auto=format&fit=crop" 
+                alt="Pessoa correndo com plano de treino do TreinoAI" 
                 className="w-full h-auto object-cover rounded-xl animate-blur-in"
                 loading="lazy"
               />

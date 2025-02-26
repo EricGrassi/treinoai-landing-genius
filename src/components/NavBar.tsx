@@ -1,6 +1,7 @@
 
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -49,11 +50,13 @@ const NavBar = () => {
             </a>
           </nav>
           <div className="flex items-center">
-            <Button 
-              className="bg-white text-treino-dark hover:bg-treino-accent hover:text-treino-dark transition-all duration-300"
-            >
-              Começar Teste Grátis
-            </Button>
+            <Link to="/signup">
+              <Button 
+                className="bg-white text-treino-dark hover:bg-treino-accent hover:text-treino-dark transition-all duration-300"
+              >
+                Começar Teste Grátis
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
