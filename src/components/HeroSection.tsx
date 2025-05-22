@@ -1,11 +1,8 @@
-
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-
 const HeroSection = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center pt-16 pb-32 px-4 sm:px-6 lg:px-8 overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center pt-16 pb-32 px-4 sm:px-6 lg:px-8 overflow-hidden">
       {/* Gradient background */}
       <div className="absolute inset-0 bg-gradient-to-b from-treino-dark via-treino-dark to-treino-gray z-0" />
       
@@ -16,7 +13,7 @@ const HeroSection = () => {
         <div className="animate-fade-in">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white mb-6">
             Treinos com IA <br className="hidden sm:block" />
-            <span className="text-treino-accent">Feitos Para Você</span>
+            <span className="text-treino-accent">Feitos para profissionais</span>
           </h1>
           
           <p className="max-w-2xl mx-auto text-lg md:text-xl text-treino-light mb-12">
@@ -26,20 +23,13 @@ const HeroSection = () => {
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/signup">
-              <Button 
-                size="lg" 
-                className="bg-white text-treino-dark hover:bg-treino-accent group transition-all duration-300 px-8 py-6 text-lg"
-              >
+              <Button size="lg" className="bg-white text-treino-dark hover:bg-treino-accent group transition-all duration-300 px-8 py-6 text-lg">
                 Comece Seu Teste Grátis
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
             </Link>
             
-            <Button 
-              variant="outline" 
-              size="lg" 
-              className="border-white/20 text-white hover:bg-white/10 hover:border-white/30 transition-all duration-300 px-8 py-6 text-lg"
-            >
+            <Button variant="outline" size="lg" className="border-white/20 text-white hover:bg-white/10 hover:border-white/30 transition-all duration-300 px-8 py-6 text-lg">
               Saiba Mais
             </Button>
           </div>
@@ -49,12 +39,7 @@ const HeroSection = () => {
         <div className="mt-16 relative animate-slide-up animation-delay-300">
           <div className="glass-effect rounded-2xl p-1 max-w-4xl mx-auto shadow-[0_20px_70px_-15px_rgba(255,255,255,0.1)]">
             <div className="relative overflow-hidden rounded-xl border border-white/5 shadow-inner">
-              <img 
-                src="https://images.unsplash.com/photo-1538805060514-97d9cc17730c?q=80&w=2574&auto=format&fit=crop" 
-                alt="Pessoa correndo com plano de treino do TreinoAI" 
-                className="w-full h-auto object-cover rounded-xl animate-blur-in"
-                loading="lazy"
-              />
+              <img src="https://images.unsplash.com/photo-1538805060514-97d9cc17730c?q=80&w=2574&auto=format&fit=crop" alt="Pessoa correndo com plano de treino do TreinoAI" className="w-full h-auto object-cover rounded-xl animate-blur-in" loading="lazy" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
             </div>
           </div>
@@ -65,8 +50,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
